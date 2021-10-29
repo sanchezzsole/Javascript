@@ -117,6 +117,7 @@ const comprarTickets=()=>{
             correo:inputs[2].value,
             cantidad:inputs[3].value
                 };
+                
         calcularValor(descuento, comprador.cantidad,comprador);
     });
 };
